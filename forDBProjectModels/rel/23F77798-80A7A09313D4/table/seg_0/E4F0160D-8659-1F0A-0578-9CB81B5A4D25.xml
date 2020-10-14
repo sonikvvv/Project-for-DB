@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4F0160D-8659-1F0A-0578-9CB81B5A4D25" name="sales_merch_quantity">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:44:06 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>B04BECBC-234E-9024-275F-E7DEAD5ADC31</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sales_id" id="EE3AADA3-C3C5-E29A-9DF1-903CD1A8B392">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:44:06 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>1BF1A45F-5636-8952-6FB4-945794DCEFD1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5D9979E-C62C-B9F6-8EC3-136D2D179D54" referredColumn="3D925D7B-8B80-561E-6F93-7995CBCB89C6"/>
+</associations>
+</Column>
+<Column name="merch_id" id="F8176227-7986-ED01-B31C-65B84720CE3E">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:44:06 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>5C42BD68-9F35-BD9E-7FD5-716D59ED27DB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC11D1C2-A976-9820-EAAD-DC86B569335B" referredColumn="EEEF95A5-8494-B067-FEAF-0C4633B27A65"/>
+</associations>
+</Column>
+<Column name="quantity" id="9D460E7F-4CF1-0D3E-6E5F-0E20E70A1544">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:44:06 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>9CC8CAF7-4605-D8E3-AE31-47C08A6B5C05</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DA5D6BE4-5F85-8F7E-9690-68AB2B05FD3C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E942E51-A7FB-E552-2527-F6385C2F0E3B" name="sales_merch_quantity_merch_fk">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:44:06 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8176227-7986-ED01-B31C-65B84720CE3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CD13F50-8EA8-B9E9-4924-68D29E5054D6" name="sales_merch_quantity_sales_fk">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:44:06 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE3AADA3-C3C5-E29A-9DF1-903CD1A8B392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

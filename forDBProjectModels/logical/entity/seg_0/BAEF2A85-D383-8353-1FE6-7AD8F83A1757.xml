@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BAEF2A85-D383-8353-1FE6-7AD8F83A1757" name="wearhouses">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>1B66BD50-C31C-AF9B-867F-57565BA91C2A</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="wearhouse id" id="DEF0ED49-5B08-EAA1-B8A1-B87B4234CA46">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>4805E582-378F-CCF1-DE1B-4238AB59D458</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wearhouse adress" id="B76AF1C4-1404-9D04-B47A-CBCBCCCC6C4E">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>80BF7BF1-4DE1-C5EF-94B9-5B641CF5DB4E</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C123DA9-8616-01A6-514A-6E88AA1EDD50</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wearhouse phone" id="F43111E3-FFD0-6808-8C7A-05101226D0A2">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>36072D3C-7F0B-0C4F-8A00-843ACD503691</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C123DA9-8616-01A6-514A-6E88AA1EDD50</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0657D7C9-B9E6-89B7-C690-5DB74E349842" name="wearhouses PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>7F0568F0-EE4C-23FD-6174-30EF677A264F</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DEF0ED49-5B08-EAA1-B8A1-B87B4234CA46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

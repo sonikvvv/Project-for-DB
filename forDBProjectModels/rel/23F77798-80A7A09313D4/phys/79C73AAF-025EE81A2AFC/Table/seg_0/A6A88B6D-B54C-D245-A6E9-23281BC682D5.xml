@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="merch_kind" directorySegmentName="seg_0" id="A6A88B6D-B54C-D245-A6E9-23281BC682D5">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="merch_kind_id" id="88FEE342-7137-19CD-09F5-6C7687F697D2">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="merch_kind_name" id="A2B8BD62-974B-BF94-CA5D-C6965A8396FE">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="merch_kind_pk" id="2A43D018-A5DF-57CB-4C79-8F9E41CB510A">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

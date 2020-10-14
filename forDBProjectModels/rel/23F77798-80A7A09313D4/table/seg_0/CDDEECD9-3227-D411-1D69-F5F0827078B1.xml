@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDDEECD9-3227-D411-1D69-F5F0827078B1" name="jobs">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>EBAE19AA-BCFE-9956-F1B8-AF7DECC9A938</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="job_id" id="90A002D0-2FC5-CF5C-CD05-16F2A7630B50">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>AF28EA6E-3AAE-E49D-A5D2-AE0063983255</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_title" id="2793364F-2B11-AEF7-10C1-F367CE87AE0A">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>FE379896-E0A3-04B1-DF46-C91EF74EE34F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E23261-4A74-D1C4-870E-B37479441137</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C2B40F5-A36F-E5BB-F83D-75656BAC0BC4" name="job_pk">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>FB4F22E6-32DB-308D-EA4D-507469174788</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90A002D0-2FC5-CF5C-CD05-16F2A7630B50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

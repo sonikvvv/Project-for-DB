@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="wearhouses" directorySegmentName="seg_0" id="1B66BD50-C31C-AF9B-867F-57565BA91C2A">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="wearhouse_phone" id="36072D3C-7F0B-0C4F-8A00-843ACD503691">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="wearhouse_id" id="4805E582-378F-CCF1-DE1B-4238AB59D458">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="wearhouse_adress" id="80BF7BF1-4DE1-C5EF-94B9-5B641CF5DB4E">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="wearhouses_PK" id="7F0568F0-EE4C-23FD-6174-30EF677A264F">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:26:56 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

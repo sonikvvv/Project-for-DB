@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35BA4EF1-697C-33C6-AD5E-00A9A45AA539" name="cust_shop_carts">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>49FAFD4B-C410-4094-8533-BE836D9C205E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="105D5A1A-6754-00E2-E11D-870BC6F7DFAF">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>4BACFFF4-D845-139F-F707-5BDE42D22A14</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42CFDB25-0B8F-F3F9-048C-3556E37460E3" referredColumn="6A2116F9-C728-3B5F-B79C-7DDA47DD427E"/>
+</associations>
+</Column>
+<Column name="shopping_cart_id" id="CB9C19A5-073A-C041-1224-9789C8D4EC5D">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>371DF7E8-C4F9-2D5B-FDBD-A73322919887</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65175BEE-5D46-879C-50A2-8055BFCD0D92" referredColumn="AF27CFE8-A28A-C068-EE84-6300C8FD642E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FDF8035-D282-71E4-9E40-442F6FA35504" name="cust_shop_carts_shopping_carts_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:25:46 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB9C19A5-073A-C041-1224-9789C8D4EC5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CD93BFA-B513-10C5-DA60-1D013F6BBBF5" name="cust_shop_carts_customers_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:26:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="105D5A1A-6754-00E2-E11D-870BC6F7DFAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

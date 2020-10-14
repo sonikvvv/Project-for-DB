@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="23F77798-CC50-FEBA-0061-80A7A09313D4" mainViewID="EA1AAC9B-CDA5-AEE8-9CC6-5AFF7FC4724E">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:24:46 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>forDBproject.sql</fileName>
+<pathName>D:\Programing\adastra-SQL\My SQL\Project for DB</pathName>
+<dbType>14</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

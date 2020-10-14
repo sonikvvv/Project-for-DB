@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CC28F3A-BCC6-3C2D-E45B-E047FD5CEFCE" name="merchandise_2">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-02 08:20:21 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<splittedTableID>2A488EC5-A520-98FC-09B4-4EED04B11FC7</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="merch_id" id="0F39DADD-87AE-3118-C3EC-47EE0BC5C302">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-02 08:20:21 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="company" id="02695C21-E915-54BE-60D4-28845297037C">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>D6889A2A-BB42-039A-44CD-F35E4AACA860</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E23261-4A74-D1C4-870E-B37479441137</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1D92697-8A7D-CC6C-3352-5297D38BE87D" name="merchandise_2_PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-02 08:20:21 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F39DADD-87AE-3118-C3EC-47EE0BC5C302"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

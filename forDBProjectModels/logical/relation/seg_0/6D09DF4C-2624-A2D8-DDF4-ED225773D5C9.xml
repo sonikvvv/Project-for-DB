@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cust_shop_carts_shopping_carts_FK" directorySegmentName="seg_0" id="6D09DF4C-2624-A2D8-DDF4-ED225773D5C9">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>65175BEE-5D46-879C-50A2-8055BFCD0D92</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<sourcePk>7BDB210E-59A7-B6CC-08B9-20311938E7F0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>303D362B-8824-A062-0CBD-27ED4CEBB6A9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>85518E7A-D088-9D59-7391-AEA8051BB196</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

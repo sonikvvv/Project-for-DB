@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60C55113-231F-1AD7-F3DF-7465A50E057E" name="author">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>C4145953-4C8C-76B8-2A79-0DC3441658AC</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="author id" id="3282EFAA-96E3-28EB-8848-70624F5E357E">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>F7A582A0-C47E-F71D-B013-424EBE6F8670</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author name" id="6C4640EC-7CA2-1847-C7E6-D40AB1D6191C">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>DDCF48F3-CB42-1609-02D9-A63AF90CBCAB</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C123DA9-8616-01A6-514A-6E88AA1EDD50</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author adress" id="733AC3F3-C83F-6D98-8F6E-3CCB0661AC07">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>B09532EA-811E-4F58-68ED-812121F5984A</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C123DA9-8616-01A6-514A-6E88AA1EDD50</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author url" id="48A7D83E-2E78-BE54-6014-407A877DA817">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>3CA9F718-1211-894A-B267-DDF7BB131EC3</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C123DA9-8616-01A6-514A-6E88AA1EDD50</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="009CBE0E-A7F2-2BC7-E9F5-632890160AB6" name="author PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>028C1EE3-B0A6-2584-B491-75FDB50D21EB</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3282EFAA-96E3-28EB-8848-70624F5E357E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

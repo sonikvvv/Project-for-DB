@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5445412C-1192-CB7D-38F8-CC96FB58517B" name="book pub author">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>1C1CE2F5-8636-C036-E098-DB4F0CC2D223</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="book id" id="F89567DF-3B7B-FE0D-28B2-5E3972644F42">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>105EAB01-FF67-AA08-8E17-5C5F562B6E93</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<referedAttribute>8D14747A-D96D-2714-E724-6CC3360A3DE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author id" id="31D0B7E6-47F4-4CB5-B4AA-E65D03B5EB3F">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>AF3AA7F4-16F0-6165-B187-CB3DD06EEE16</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<referedAttribute>3282EFAA-96E3-28EB-8848-70624F5E357E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="publisher id" id="002948CC-5622-D266-D70F-3FAA57A4EA8A">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>5C194AB7-DFD8-A9DF-8B51-93D6BE268FA2</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<referedAttribute>9C4C0737-455E-C9F4-DD4A-3D9038E7E65F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

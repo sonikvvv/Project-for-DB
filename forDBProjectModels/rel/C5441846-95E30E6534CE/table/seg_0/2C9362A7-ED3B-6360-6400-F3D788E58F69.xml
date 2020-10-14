@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C9362A7-ED3B-6360-6400-F3D788E58F69" name="wearhouses_stock">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>6DFA7D99-83DD-FACD-771C-D478B74CB49F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="werahouse_id" id="8FE66E4B-0870-6C4C-2D6D-AED9FF42AD7B">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>FF13369D-61B1-7D65-F4EE-80997C9BA523</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB1321DA-99F9-8296-1B69-977602EBB66E" referredColumn="4805E582-378F-CCF1-DE1B-4238AB59D458"/>
+</associations>
+</Column>
+<Column name="book_id" id="5844ADA7-5324-9A7C-3536-2CF6740F7E7B">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>E61236D2-4B83-C8B3-89ED-05B59ED2782C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="FA7A9D4D-5BDD-EA5E-0F5A-92235A56CACA">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>63E74BB3-DEE4-3ABF-B7FC-D71280008102</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="book_book_id" id="62745C75-A10F-C597-312F-54DEBC9A6B0F">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:31:27 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0419ADE6-5597-BD5C-BACF-B7375E4269EB" name="wearhouses_stock_wearhouses_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:27:00 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FE66E4B-0870-6C4C-2D6D-AED9FF42AD7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

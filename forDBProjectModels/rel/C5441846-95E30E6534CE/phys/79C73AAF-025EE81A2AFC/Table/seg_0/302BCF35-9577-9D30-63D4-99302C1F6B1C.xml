@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="book" directorySegmentName="seg_0" id="302BCF35-9577-9D30-63D4-99302C1F6B1C">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="book_id" id="87972E36-DE15-2ACA-5B05-0959307B68F6">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="isbn" id="C91A8F0E-6EBB-F29C-84A5-BD814F2910E0">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="price" id="D7C77BBB-00D9-563F-99BF-3C3882F89A32">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="year" id="FD86E898-D0B8-8614-8CC2-B4400605AB39">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="book_PK" id="2696AD4B-83C5-FF94-AB80-8820A9885FA1">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:24:49 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="forDBproject_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="10E23261-4A74-D1C4-870E-B37479441137">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>forDBproject_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_3_0_0" id="2343B719-CD8D-C60F-434D-9FB85BBC2F66">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>forDBproject_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="315CF883-8F01-4FE5-5A89-FFD36EE45259">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>forDBproject_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="662269DE-951C-80E2-BEA7-803E5119B0E9">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>forDBproject_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_8_2_0" id="AB708646-54A3-DF46-E64B-5F9A502DD5D7">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>forDBproject_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15" id="BC5A2C2F-6A1E-B449-9FE6-03866B3BE9E9">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>15</dataTypeSize>
+<fileName>forDBproject_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_4_0_0" id="DA5D6BE4-5F85-8F7E-9690-68AB2B05FD3C">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>forDBproject_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6A88B6D-B54C-D245-A6E9-23281BC682D5" name="merch_kind">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>449068F5-B723-25C8-21BF-E1A0E9670D3D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="merch_kind_id" id="88FEE342-7137-19CD-09F5-6C7687F697D2">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>FD27EB4A-613E-504F-8163-799E55E5A95F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_kind_name" id="A2B8BD62-974B-BF94-CA5D-C6965A8396FE">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>C61A87BF-7A2D-484F-9DB1-87CC8281865C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BC5A2C2F-6A1E-B449-9FE6-03866B3BE9E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A43D018-A5DF-57CB-4C79-8F9E41CB510A" name="merch_kind_pk">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>770D1927-D8D5-F627-CA45-7F9D25E7FEF7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88FEE342-7137-19CD-09F5-6C7687F697D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

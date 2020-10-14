@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="wearhouses_stock_wearhouses_FK" directorySegmentName="seg_0" id="B56F8724-FC43-4D84-DD76-E0163649169C">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>BB1321DA-99F9-8296-1B69-977602EBB66E</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<sourcePk>0657D7C9-B9E6-89B7-C690-5DB74E349842</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BAEF2A85-D383-8353-1FE6-7AD8F83A1757</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>499C82D0-7FAC-36AA-BE5D-46EF361C6A93</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

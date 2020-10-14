@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5D9979E-C62C-B9F6-8EC3-136D2D179D54" containerWithKeyObject="E4F0160D-8659-1F0A-0578-9CB81B5A4D25" localFKIndex="0CD13F50-8EA8-B9E9-4924-68D29E5054D6" name="sales_merch_quantity_sales_fk">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:44:06 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>CCD1826B-016F-F170-37AE-216D10FE5FBC</importedID>
+<referredTableLongName>sales</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7046CE58-172D-F897-2B43-C08A2F402726</referredTableID>
+<keyObject>752C566A-E96E-A7D2-6F28-64F956A63B2B</keyObject>
+<referredKeyID>752C566A-E96E-A7D2-6F28-64F956A63B2B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sales_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

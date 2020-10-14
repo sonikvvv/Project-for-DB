@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="302BCF35-9577-9D30-63D4-99302C1F6B1C" name="book">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>83C461D9-E829-40F1-AA93-51F7277CAC51</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="book_id" id="87972E36-DE15-2ACA-5B05-0959307B68F6">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>CBA5545B-08A7-258F-C049-93A05091324E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isbn" id="C91A8F0E-6EBB-F29C-84A5-BD814F2910E0">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>49EF1E4B-C832-F7DD-12F3-D3426214F871</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10E23261-4A74-D1C4-870E-B37479441137</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year" id="FD86E898-D0B8-8614-8CC2-B4400605AB39">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>F3AEA35F-21F1-98BC-3B92-CDD53CA725B1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>315CF883-8F01-4FE5-5A89-FFD36EE45259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="D7C77BBB-00D9-563F-99BF-3C3882F89A32">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>4EAD7E20-EBDD-009C-B67A-D6DBC159BC20</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7456FFFE-9FD3-EC43-CCC2-FA9041830E62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2696AD4B-83C5-FF94-AB80-8820A9885FA1" name="book_PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:24:49 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87972E36-DE15-2ACA-5B05-0959307B68F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5333940-6DC7-EB75-C4D2-AC10137E5A65" name="shopping_carts">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>D2E0F20F-23D0-70B1-CD04-168A1D678204</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="shopping_cart_id" id="AF27CFE8-A28A-C068-EE84-6300C8FD642E">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>CD6FA239-30FE-F97C-629B-27585A3D0C47</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="book_id" id="ECE4A18E-5701-7AE0-5BEE-0CFC85C5B476">
+<sourceDDLFile>Lab2_2.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:20:04 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>1B14C1AC-2E00-E9E4-2461-44E7E0DAAC70</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EE435531-6C2D-011D-7745-2E1E2D0753FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71355BF2-EC18-9FD2-BC2A-F47549597F39" referredColumn="87972E36-DE15-2ACA-5B05-0959307B68F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="076AF59D-48E7-789E-71B1-48D7F296E8C2" name="shopping_carts_PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:24:44 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF27CFE8-A28A-C068-EE84-6300C8FD642E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2100B424-E260-5FE3-1AD2-CFE790DB2EAC" name="shopping_carts_book_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:25:05 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECE4A18E-5701-7AE0-5BEE-0CFC85C5B476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

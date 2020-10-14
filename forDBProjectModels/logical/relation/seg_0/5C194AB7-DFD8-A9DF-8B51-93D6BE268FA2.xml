@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="book_pub_author_publisher_FK" directorySegmentName="seg_0" id="5C194AB7-DFD8-A9DF-8B51-93D6BE268FA2">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:33:12 UTC</createdTime>
+<generatorID>4310C0E1-80BE-AA90-D863-C25EFF5327D1</generatorID>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<engineerTo>
+<item key="C5441846-2E74-8385-B16F-95E30E6534CE" value="true"/>
+<item key="23F77798-CC50-FEBA-0061-80A7A09313D4" value="true"/>
+</engineerTo>
+<sourcePk>A90C381E-0500-97DB-AB67-663257CDC0D9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>152456BF-970B-ACDB-F755-6B63A33B1A68</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5445412C-1192-CB7D-38F8-CC96FB58517B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

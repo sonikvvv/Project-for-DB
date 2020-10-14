@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB1321DA-99F9-8296-1B69-977602EBB66E" containerWithKeyObject="2C9362A7-ED3B-6360-6400-F3D788E58F69" localFKIndex="0419ADE6-5597-BD5C-BACF-B7375E4269EB" name="wearhouses_stock_wearhouses_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-09 05:27:00 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<referredTableLongName>wearhouses</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1B66BD50-C31C-AF9B-867F-57565BA91C2A</referredTableID>
+<keyObject>7F0568F0-EE4C-23FD-6174-30EF677A264F</keyObject>
+<referredKeyID>7F0568F0-EE4C-23FD-6174-30EF677A264F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>wearhouse_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

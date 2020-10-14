@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7046CE58-172D-F897-2B43-C08A2F402726" name="sales">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>7C1C291B-8903-F01B-E5E9-0E9485B706B2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sales_id" id="3D925D7B-8B80-561E-6F93-7995CBCB89C6">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>F583D256-BEE5-BA0F-6186-237F4815257C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_id" id="6CE4DFD7-699D-014E-08EE-4CF111AC2159">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>751126F8-3309-8145-13AC-0E900B50CB7D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67EB9BA4-3541-FE96-BD66-9FADFF10D5EE" referredColumn="C2C44FD7-A8C3-7B8C-CCF9-7A5959E04392"/>
+</associations>
+</Column>
+<Column name="employee_id" id="67B594B6-B5A4-36B1-1926-F5ACC723C2CA">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>E249F0E6-276C-DEA5-68CE-6B4A09EB71C3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09EE8F72-2AE6-37AB-0B7C-8BE43CAB7DC4" referredColumn="430B5CA3-5D9F-B85A-B93E-011C0EEC28E6"/>
+</associations>
+</Column>
+<Column name="sale_date" id="B24F6993-652D-6793-2472-93BA1F8A89FE">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>1D10C20B-92B9-F570-1A95-71A19A3599C8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>315CF883-8F01-4FE5-5A89-FFD36EE45259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_id" id="C22C344E-30A7-02ED-EC7A-55CC4FBBF48E">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>B14FD21E-3AA0-9EE7-DCA8-664BC70A8699</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2343B719-CD8D-C60F-434D-9FB85BBC2F66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7649A2F0-DE4B-A888-F46F-E401BF281367" referredColumn="EEEF95A5-8494-B067-FEAF-0C4633B27A65"/>
+</associations>
+</Column>
+<Column name="quantity" id="AA7564E8-58EA-9237-CE87-26F063B98CF9">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>2B166350-B0E9-22EA-11ED-C792926D567E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DA5D6BE4-5F85-8F7E-9690-68AB2B05FD3C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="752C566A-E96E-A7D2-6F28-64F956A63B2B" name="sales_pk">
+<sourceDDLFile>forDBproject.sql</sourceDDLFile>
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<importedID>4E8425C3-0137-81D9-5E08-C22F523BA1F8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D925D7B-8B80-561E-6F93-7995CBCB89C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AE46B3A-7365-78E8-4330-CD284CA83D92" name="sales_client_fk">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE4DFD7-699D-014E-08EE-4CF111AC2159"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B04B9704-9FD8-6865-A0E0-4CB21CAC1802" name="sales_employee_fk">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B594B6-B5A4-36B1-1926-F5ACC723C2CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D0E7478-8A9B-2180-6DCD-009CD9E944A4" name="sales_merch_fk">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-09-26 09:26:19 UTC</createdTime>
+<ownerDesignName>forDBProjectModels</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C22C344E-30A7-02ED-EC7A-55CC4FBBF48E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
