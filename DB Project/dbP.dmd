@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dbP" id="9F33D7E2-3921-BB4E-9E7E-D5E573CDDD41" version="3.5">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:16:16 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9F33D7E2-3921-BB4E-9E7E-D5E573CDDD41</designId>
+</OSDM_Design>

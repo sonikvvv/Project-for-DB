@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="30AC5D06-067A-EB65-1508-81FE86638EAF" containerWithKeyObject="623F4657-7524-E447-FAB0-548181E5675C" localFKIndex="386CE626-F832-90F7-85E5-03A3F808FB87" name="sale_quantity_erch_sales_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:46:18 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<referredTableLongName>sales</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>876CF828-0D84-1FAD-376B-A690DF634349</referredTableID>
+<keyObject>6D0362DA-2B01-464D-4365-61DBD30BEB7C</keyObject>
+<referredKeyID>6D0362DA-2B01-464D-4365-61DBD30BEB7C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sale_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="832294D8-069C-377E-F708-30BA9E9797A1" name="merch">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:16:30 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="merch_id" id="D7F31E8A-3337-FE87-144D-8AAB734944A2">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:17:25 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_year" id="2A562A47-238A-D668-D098-47BB01DD9DB6">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:17:25 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_title" id="6CB7DBC8-6C8A-868C-2001-7F6C20094815">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:17:25 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_unit_price" id="03885A85-B6B4-584C-54DC-48ADCED2A359">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:17:25 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_kind_id" id="10E0052A-C6DA-E317-19C8-4F54B0FE927D">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:56:28 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15839051-A40D-5006-9928-1872B397F0F4" referredColumn="3723C68C-C78A-8697-EC06-7E5F28F688F2"/>
+</associations>
+</Column>
+<Column name="company_id" id="A68228EE-7F2D-604A-7F7B-05C6AF2B82F1">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 16:00:36 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CD92E4E-78E9-E20A-3080-9B610ECFC2F3" referredColumn="62709EC8-7312-2CB4-0CA7-74888B8E791A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BA0F813-0F05-4C41-2D5F-02CB225D957D" name="merch_PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:17:25 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7F31E8A-3337-FE87-144D-8AAB734944A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B836815-8B40-FC64-3B95-C57DD9FF4F05" name="merch_merch_kind_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:56:36 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10E0052A-C6DA-E317-19C8-4F54B0FE927D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15369E6D-6CD4-D994-0184-652678D95D0E" name="merch_company_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 16:01:39 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A68228EE-7F2D-604A-7F7B-05C6AF2B82F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

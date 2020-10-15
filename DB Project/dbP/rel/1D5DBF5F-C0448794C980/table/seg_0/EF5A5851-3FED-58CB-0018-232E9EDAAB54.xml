@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF5A5851-3FED-58CB-0018-232E9EDAAB54" name="client">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:29:31 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="client_id" id="FF612E9F-3E84-7E37-6D8C-03F3C857B9BE">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:30:46 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_name" id="0CC06FA6-2A75-56A1-75AD-ADBC8340FC38">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:30:46 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_address" id="0359B213-E269-FB1F-3E39-EAA861245D41">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:30:46 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_phone" id="17A349F3-15C1-B2A6-4B18-B20F7625DCF5">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:30:46 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C20B16C8-E992-9512-6323-B7904EF8563E" name="person_PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:30:46 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF612E9F-3E84-7E37-6D8C-03F3C857B9BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

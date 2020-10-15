@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="merch_performer_performer_FK" directorySegmentName="seg_0" id="0E74D699-258F-5FA9-EE94-67221FAAD071">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 16:02:06 UTC</createdTime>
+<generatorID>ED45202E-9BC3-D3A2-1B28-E1DEE9F81F15</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<sourcePk>78606ACF-E387-3941-1ACF-BD546896C6A0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2A9E79D2-F635-4ADC-D4A4-77CE00C6054A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D4F01865-C635-ACFF-DDA8-2ABDAD99B2DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

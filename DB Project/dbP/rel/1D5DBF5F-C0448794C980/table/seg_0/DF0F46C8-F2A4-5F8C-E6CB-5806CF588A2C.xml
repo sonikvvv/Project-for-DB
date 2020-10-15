@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF0F46C8-F2A4-5F8C-E6CB-5806CF588A2C" name="merch_performer">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:57:40 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="performer_id" id="FC8C2ECE-A7A4-9CC8-3027-1C96DC5DA028">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:58:58 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED45202E-9BC3-D3A2-1B28-E1DEE9F81F15" referredColumn="44D01EDD-4E34-B581-A179-EABFFE2BE114"/>
+</associations>
+</Column>
+<Column name="merch_id" id="B7828B4A-EE42-CFE7-A615-4D5F9312AC2D">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:58:58 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BC8F809-2DBF-4C75-ACDF-BB8F0EF38617" referredColumn="D7F31E8A-3337-FE87-144D-8AAB734944A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27606599-A0F1-AC85-2EC6-C81CEED1AFAF" name="merch_performer_performer_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:59:22 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC8C2ECE-A7A4-9CC8-3027-1C96DC5DA028"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E92C4F50-7F07-2114-E286-E26C4C5DFFD4" name="merch_performer_merch_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:59:36 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7828B4A-EE42-CFE7-A615-4D5F9312AC2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

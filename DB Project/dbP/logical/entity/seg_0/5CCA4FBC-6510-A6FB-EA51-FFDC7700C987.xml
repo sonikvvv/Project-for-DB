@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CCA4FBC-6510-A6FB-EA51-FFDC7700C987" name="genre">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:28:17 UTC</createdTime>
+<generatorID>149DE5D3-5B27-D296-381E-80314E10D939</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="genre name" id="98AF1E59-3FAF-BD25-5F77-BBCC1B8E6F80">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:28:17 UTC</createdTime>
+<generatorID>E0C7EAA2-8D21-C8A6-A0E8-C80421F9350C</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genre id" id="0134F63B-A9F2-7690-6136-F7D92B1FEB7D">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 16:02:06 UTC</createdTime>
+<generatorID>A3EE14DB-A2FB-3F70-42A1-2CEC401546F4</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0825DE6C-B35D-77A6-0292-C227C4C62F87" name="merch genre PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:28:17 UTC</createdTime>
+<generatorID>03599627-03F7-F480-CD33-E398C9B76094</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0134F63B-A9F2-7690-6136-F7D92B1FEB7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

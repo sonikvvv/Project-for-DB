@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB3D8436-B4E2-0D49-90B4-7AFBC4088CEA" name="performer">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:25:19 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<ordsAlias>merch_1</ordsAlias>
+<splittedTableID>832294D8-069C-377E-F708-30BA9E9797A1</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="performer_id" id="44D01EDD-4E34-B581-A179-EABFFE2BE114">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:25:19 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="performer_name" id="DD903BFF-09B0-0074-65F0-C506D13880B4">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:17:25 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49E4AB70-EAF4-5882-3BC2-9B515F2AFF10" name="merch_1_PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:25:19 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44D01EDD-4E34-B581-A179-EABFFE2BE114"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A9E79D2-F635-4ADC-D4A4-77CE00C6054A" name="performer">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:28:17 UTC</createdTime>
+<generatorID>EB3D8436-B4E2-0D49-90B4-7AFBC4088CEA</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="performer name" id="0A78EFC6-C84B-06BC-A935-AEF1012A5224">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:28:17 UTC</createdTime>
+<generatorID>DD903BFF-09B0-0074-65F0-C506D13880B4</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="performer id" id="98409748-2B5C-950C-FA16-A7D12DC1ED10">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 16:02:06 UTC</createdTime>
+<generatorID>44D01EDD-4E34-B581-A179-EABFFE2BE114</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78606ACF-E387-3941-1ACF-BD546896C6A0" name="merch 1 PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:28:17 UTC</createdTime>
+<generatorID>49E4AB70-EAF4-5882-3BC2-9B515F2AFF10</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>98409748-2B5C-950C-FA16-A7D12DC1ED10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

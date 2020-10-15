@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C4CF182-4DE4-C113-A319-2F6B04D0EE1E" name="merch_kind">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:28:00 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<splittedTableID>832294D8-069C-377E-F708-30BA9E9797A1</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="merch_kind_id" id="3723C68C-C78A-8697-EC06-7E5F28F688F2">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:28:00 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merch_kind" id="CB43DD24-8F94-53F0-F67A-717E39C78553">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:17:25 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF4E60D4-B4C0-8EC1-C42E-FD1CB3E1CA4E" name="merch_kind_PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:28:00 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3723C68C-C78A-8697-EC06-7E5F28F688F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

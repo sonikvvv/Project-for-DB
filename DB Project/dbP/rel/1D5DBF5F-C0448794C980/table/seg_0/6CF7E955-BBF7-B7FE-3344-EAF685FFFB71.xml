@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CF7E955-BBF7-B7FE-3344-EAF685FFFB71" name="employee_job">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:34:21 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_job_id" id="D92B7737-1058-5D76-A222-C5287D2DBCD1">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:35:45 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_job_title" id="F23783FC-BA45-85D6-F05F-10CE839E42F8">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:35:45 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D70FFA96-D179-2DDD-1072-89765133A629" name="employee_job_PK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:35:45 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D92B7737-1058-5D76-A222-C5287D2DBCD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

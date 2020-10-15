@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED45202E-9BC3-D3A2-1B28-E1DEE9F81F15" containerWithKeyObject="DF0F46C8-F2A4-5F8C-E6CB-5806CF588A2C" localFKIndex="27606599-A0F1-AC85-2EC6-C81CEED1AFAF" name="merch_performer_performer_FK">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 15:59:22 UTC</createdTime>
+<ownerDesignName>dbP</ownerDesignName>
+<referredTableLongName>performer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB3D8436-B4E2-0D49-90B4-7AFBC4088CEA</referredTableID>
+<keyObject>49E4AB70-EAF4-5882-3BC2-9B515F2AFF10</keyObject>
+<referredKeyID>49E4AB70-EAF4-5882-3BC2-9B515F2AFF10</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>performer_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

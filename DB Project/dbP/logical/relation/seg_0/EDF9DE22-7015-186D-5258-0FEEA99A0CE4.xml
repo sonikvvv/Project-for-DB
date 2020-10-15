@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sale_quantity_erch_sales_FK" directorySegmentName="seg_0" id="EDF9DE22-7015-186D-5258-0FEEA99A0CE4">
+<createdBy>Veselin</createdBy>
+<createdTime>2020-10-12 16:02:06 UTC</createdTime>
+<generatorID>30AC5D06-067A-EB65-1508-81FE86638EAF</generatorID>
+<ownerDesignName>dbP</ownerDesignName>
+<engineerTo>
+<item key="1D5DBF5F-9A92-69D3-DEAD-C0448794C980" value="true"/>
+</engineerTo>
+<sourcePk>B2C6DB97-3ADD-C569-47D2-B5F056B10F21</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0287E756-0F1E-102D-9F40-04011A33A87D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7FB67063-6244-899D-EB69-FF8ED3CA5AE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
