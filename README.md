@@ -20,12 +20,16 @@
     * Закупени стоки от клиент, подредени по вид и дата.
     * Закупени стоки за период, подредени по клиенти и дати.
 
-## Logical Model
+## 2. Logical Model
+![alt text](https://github.com/sonikvvv/Project-for-DB/blob/main/logical%20model.jpg "Logical model image")
 
-## Relation Model
+## 3. Relation Model
+![alt text](https://github.com/sonikvvv/Project-for-DB/blob/main/Relational%20model.jpg "Relational model image")
 
-## Create Tables code
+## 4. Create Tables code 
+[Create tables code](https://github.com/sonikvvv/Project-for-DB/blob/main/DB%20Project/SQL_Code.ddl)
 
-## Insert into tables code
+## 5. Insert into tables code
+[Insert statements](https://github.com/sonikvvv/Project-for-DB/blob/main/insertInto.sql)
 
-## Select statements
+## 6. Select statements
