@@ -21,10 +21,10 @@
     * Закупени стоки за период, подредени по клиенти и дати.
 
 ## 2. Logical Model
-![alt text]( "Logical model image")
+![alt text](https://github.com/sonikvvv/Project-for-DB/blob/main/images/logical%20model.jpg "Logical model image")
 
 ## 3. Relation Model
-![alt text]( "Relational model image")
+![alt text](https://github.com/sonikvvv/Project-for-DB/blob/main/images/Relational%20model.jpg "Relational model image")
 
 ## 4. Create Tables code 
 [Create tables code](https://github.com/sonikvvv/Project-for-DB/blob/main/DB%20Project/SQL_Code.ddl)
@@ -47,7 +47,7 @@
     group by e.employee_name, s.sale_id, s.sale_date, s.client_id, e.employee_id
     order by e.employee_name DESC, s.sale_date DESC;
     ```
-
+    ![alt text](https://github.com/sonikvvv/Project-for-DB/blob/main/images/select%203.1%20empl5.jpg "Result from first query")
 2. Последните 5 продажби на стоки, подредени по служител.
     * Продажби подредени по дата.
         ```sql
@@ -56,7 +56,7 @@
         join employee e on s.employee_id = e.employee_id
         order by sale_date DESC;
         ```
-    
+       ![alt text](https://github.com/sonikvvv/Project-for-DB/blob/main/images/select%203.2.1.jpg "Result from second query")
     * Последните 5 продажби на стоки.
         ```sql
         select * 
@@ -70,7 +70,7 @@
         where ROWNUM <= 5
         order by 4 ASC;
         ```
-
+        ![alt text](https://github.com/sonikvvv/Project-for-DB/blob/main/images/select%203.2.2.jpg "Result from third query")
 3. Закупени стоки от клиент, подредени по вид и дата.
     ```sql
     select
@@ -90,7 +90,7 @@
     where c.client_id = &client_id
     order by mk.merch_kind ASC, s.sale_date DESC;
     ```
-
+    ![alt text](https://github.com/sonikvvv/Project-for-DB/blob/main/images/select%203.3%20client4.jpg "Result from fourth query")
 4. Закупени стоки за период, подредени по клиенти и дати.
     ```sql
     select
