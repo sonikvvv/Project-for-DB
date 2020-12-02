@@ -1,0 +1,60 @@
+Sale ID => 4 sale date => 29-FEB-20 client id => 8 employee name => Anjali Rice employee id => 3
+
+Sale ID => 17 sale date => 24-SEP-20 client id => 5 employee name => Annalise Wisozk
+Sale ID => 13 sale date => 09-SEP-20 client id => 1 employee name => Elmo Mosciski
+Sale ID => 8 sale date => 10-SEP-20 client id => 12 employee name => Haylie Corkery
+Sale ID => 9 sale date => 28-AUG-20 client id => 1 employee name => Nona Schoen
+Sale ID => 12 sale date => 24-AUG-20 client id => 9 employee name => Tabitha Robel
+
+Sale ID => 6 sale date => 11-JAN-20 client id => 2 client name => Nicholas Hane client phone N => 115.097.4841 x08641 merch id => 28 merch title => Generic Cotton Bike merch kind => Blue-Ray merch unit price => 46.18
+Sale ID => 6 sale date => 11-JAN-20 client id => 2 client name => Nicholas Hane client phone N => 115.097.4841 x08641 merch id => 35 merch title => Ergonomic Soft Mouse merch kind => Plate merch unit price => 51.81
+
+Sale ID => 15 sale date => 17-MAR-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 13 merch title => Tasty Granite Soap merch kind => Plate merch unit price => 55.9
+Sale ID => 15 sale date => 17-MAR-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 39 merch title => Handmade Granite Soap merch kind => DVD merch unit price => 89.74
+Sale ID => 15 sale date => 17-MAR-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 32 merch title => Fantastic Granite Towels merch kind => Plate merch unit price => 25.97
+Sale ID => 15 sale date => 17-MAR-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 15 merch title => Generic Rubber Computer merch kind => Blue-Ray merch unit price => 57.3
+Sale ID => 15 sale date => 17-MAR-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 38 merch title => Intelligent Soft Soap merch kind => Plate merch unit price => 42.5
+Sale ID => 15 sale date => 17-MAR-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 10 merch title => Ergonomic Rubber Fish merch kind => Blue-Ray merch unit price => 29.48
+Sale ID => 15 sale date => 17-MAR-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 4 merch title => Tasty Soft Salad merch kind => Blue-Ray merch unit price => 25.32
+Sale ID => 15 sale date => 17-MAR-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 6 merch title => Generic Fresh Shoes merch kind => DVD merch unit price => 67.77
+Sale ID => 4 sale date => 29-FEB-20 client name => Kathleen Schumm client phone N => 726.164.3456 merch id => 12 merch title => Sleek Metal Table merch kind => CD merch unit price => 36.93
+Sale ID => 4 sale date => 29-FEB-20 client name => Kathleen Schumm client phone N => 726.164.3456 merch id => 22 merch title => Awesome Wooden Pants merch kind => Plate merch unit price => 72.51
+Sale ID => 4 sale date => 29-FEB-20 client name => Kathleen Schumm client phone N => 726.164.3456 merch id => 28 merch title => Generic Cotton Bike merch kind => Blue-Ray merch unit price => 46.18
+Sale ID => 7 sale date => 04-FEB-20 client name => Hershel Towne client phone N => 280-298-6702 merch id => 24 merch title => Licensed Fresh Bacon merch kind => DVD merch unit price => 97.94
+Sale ID => 7 sale date => 04-FEB-20 client name => Hershel Towne client phone N => 280-298-6702 merch id => 36 merch title => Generic Fresh Table merch kind => Plate merch unit price => 52.56
+Sale ID => 7 sale date => 04-FEB-20 client name => Hershel Towne client phone N => 280-298-6702 merch id => 36 merch title => Generic Fresh Table merch kind => Plate merch unit price => 52.56
+Sale ID => 7 sale date => 04-FEB-20 client name => Hershel Towne client phone N => 280-298-6702 merch id => 37 merch title => Handmade Concrete Chair merch kind => DVD merch unit price => 20.62
+Sale ID => 7 sale date => 04-FEB-20 client name => Hershel Towne client phone N => 280-298-6702 merch id => 39 merch title => Handmade Granite Soap merch kind => DVD merch unit price => 89.74
+Sale ID => 7 sale date => 04-FEB-20 client name => Hershel Towne client phone N => 280-298-6702 merch id => 28 merch title => Generic Cotton Bike merch kind => Blue-Ray merch unit price => 46.18
+Sale ID => 1 sale date => 22-JAN-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 34 merch title => Generic Metal Soap merch kind => Blue-Ray merch unit price => 19.11
+Sale ID => 1 sale date => 22-JAN-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 5 merch title => Generic Fresh Computer merch kind => Blue-Ray merch unit price => 8.48
+Sale ID => 1 sale date => 22-JAN-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 6 merch title => Generic Fresh Shoes merch kind => DVD merch unit price => 67.77
+Sale ID => 1 sale date => 22-JAN-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 21 merch title => Rustic Frozen Bacon merch kind => CD merch unit price => 60.44
+Sale ID => 1 sale date => 22-JAN-20 client name => Frieda Parisian client phone N => 735-884-6282 x9605 merch id => 15 merch title => Generic Rubber Computer merch kind => Blue-Ray merch unit price => 57.3
+Sale ID => 6 sale date => 11-JAN-20 client name => Nicholas Hane client phone N => 115.097.4841 x08641 merch id => 35 merch title => Ergonomic Soft Mouse merch kind => Plate merch unit price => 51.81
+Sale ID => 6 sale date => 11-JAN-20 client name => Nicholas Hane client phone N => 115.097.4841 x08641 merch id => 28 merch title => Generic Cotton Bike merch kind => Blue-Ray merch unit price => 46.18
+Sale ID => 3 sale date => 03-JAN-20 client name => Faustino Ullrich client phone N => 952.814.9361 merch id => 29 merch title => Refined Fresh Chips merch kind => Plate merch unit price => 28.68
+Sale ID => 3 sale date => 03-JAN-20 client name => Faustino Ullrich client phone N => 952.814.9361 merch id => 20 merch title => Rustic Steel Mouse merch kind => Blue-Ray merch unit price => 95.42
+Sale ID => 3 sale date => 03-JAN-20 client name => Faustino Ullrich client phone N => 952.814.9361 merch id => 6 merch title => Generic Fresh Shoes merch kind => DVD merch unit price => 67.77
+Sale ID => 3 sale date => 03-JAN-20 client name => Faustino Ullrich client phone N => 952.814.9361 merch id => 16 merch title => Licensed Concrete Soap merch kind => CD merch unit price => 44.57
+
+Merch ID => 11 title => Rustic Metal Pants year => 01-OCT-15 unit price => 58.52 kind => CD genres => Electronic music,R and B and soul performers => Elyssa Carter,Etha Heaney III,Ms. Maureen Stracke company => Satterfield, Larkin and Franecki
+Merch ID => 21 title => Rustic Frozen Bacon year => 01-OCT-04 unit price => 60.44 kind => CD genres => Avant-garde,Blues,Country,Folk performers => Daniella Gutmann Sr.,Mrs. Santino Lebsack company => Satterfield, Larkin and Franecki
+Merch ID => 21 title => Rustic Frozen Bacon year => 01-OCT-04 unit price => 60.44 kind => CD genres => Electronic music performers => Daniella Gutmann Sr.,Daniella Gutmann Sr.,Mrs. Santino Lebsack,Mrs. Santino Lebsack company => Satterfield, Larkin and Franecki
+Merch ID => 39 title => Handmade Granite Soap year => 01-OCT-01 unit price => 89.74 kind => DVD genres => Caribbean,Hip hop performers => Mrs. Esperanza Collier company => Satterfield, Larkin and Franecki
+
+Merch ID => 6 title => Generic Fresh Shoes year => 01-OCT-99 unit price => 67.77 kind => DVD genres => Electronic music performers => Etha Heaney III,Etha Heaney III,Jose Sipes,Ms. Maureen Stracke company => Thompson Group
+Merch ID => 24 title => Licensed Fresh Bacon year => 01-OCT-16 unit price => 97.94 kind => DVD genres => Avant-garde,Rock performers => Samantha Sawayn,Samantha Sawayn company => Konopelski, Ruecker and Roberts
+Merch ID => 30 title => Ergonomic Fresh Computer year => 01-OCT-02 unit price => 13.95 kind => CD genres => Electronic music,Folk performers => Elyssa Carter,Grant Skiles,Mrs. Esperanza Collier company => Bahringer - Beatty
+
+Merch ID => 3 title => Ergonomic Concrete Mouse year => 01-OCT-81 unit price => 49.27 kind => CD genres => Classical music,Folk,Hip hop performers => Mortimer Simonis company => Quigley - Wisozk
+Merch ID => 12 title => Sleek Metal Table year => 01-OCT-00 unit price => 36.93 kind => CD genres => Caribbean,Electronic music,Hip hop,Pop,Rock performers => Mortimer Simonis company => Smitham - Hudson
+Merch ID => 18 title => Handcrafted Soft Chips year => 01-OCT-03 unit price => 13.84 kind => DVD genres => Avant-garde,Blues,Caribbean,Classical music,Electronic music,Folk,Hip hop performers => Elody Zulauf,Ressie Feest,Ressie Feest company => Ernser LLC
+Merch ID => 37 title => Handmade Concrete Chair year => 01-OCT-05 unit price => 20.62 kind => DVD genres => Avant-garde,Easy listening,Hip hop,Jazz,Pop performers => Duane Romaguera,Grant Skiles company => Thiel Group
+Merch ID => 39 title => Handmade Granite Soap year => 01-OCT-01 unit price => 89.74 kind => DVD genres => Caribbean,Hip hop performers => Mrs. Esperanza Collier company => Satterfield, Larkin and Franecki
+
+Merch ID => 3 title => Ergonomic Concrete Mouse year => 01-OCT-81 unit price => 49.27 kind => CD genres => Classical music,Folk,Hip hop performers => Mortimer Simonis company => Quigley - Wisozk
+Merch ID => 12 title => Sleek Metal Table year => 01-OCT-00 unit price => 36.93 kind => CD genres => Caribbean,Electronic music,Hip hop,Pop,Rock performers => Mortimer Simonis company => Smitham - Hudson
+
+Merch ID => 3 title => Ergonomic Concrete Mouse year => 01-OCT-81 unit price => 49.27 kind => CD genres => Classical music,Folk,Hip hop performers => Mortimer Simonis company => Quigley - Wisozk
+
