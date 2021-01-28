@@ -30,9 +30,19 @@
 [Create tables code](https://github.com/sonikvvv/Project-for-DB/blob/main/DB%20Project/SQL_Code.ddl)
 
 ## 5. Insert into tables code
-[Insert statements](https://github.com/sonikvvv/Project-for-DB/blob/main/insertInto.sql)
+[Insert statements](https://github.com/sonikvvv/Project-for-DB/blob/main/code/insertInto.sql)
 
-## 6. Select statements
+## 6. Sequences and triggers
+[Sequences and triggers](https://github.com/sonikvvv/Project-for-DB/blob/main/code/sequences_and_triggers.sql)
+
+## 7. Procedures
+[Procedures](https://github.com/sonikvvv/Project-for-DB/blob/main/code/procedures.sql)
+
+## 8. Cursors
+[Cursors](https://github.com/sonikvvv/Project-for-DB/blob/main/code/cursors.sql)
+
+## 9. Select statements
+[Select code](https://github.com/sonikvvv/Project-for-DB/blob/main/code/selectCode.sql)
 1. Продажби на служител, подредени по дата. e.employee_id = 5
     ```sql
     select
